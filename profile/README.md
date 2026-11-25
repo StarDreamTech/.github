@@ -94,13 +94,13 @@ brew install stardreamtech/tap/starvault         # 星匣 · 仅 CLI / MCP
     <tr>
       <td nowrap><strong>星使</strong><br /><sub><a href="https://github.com/StarDreamTech/StarEnvoy">StarEnvoy</a></sub></td>
       <td>按地区、关键词与薪资筛选 BOSS 岗位，集中查看结果与沟通记录（PySide6）</td>
-      <td align="center" nowrap><code>源码阶段</code></td>
+      <td align="center" nowrap><code>源码版</code></td>
       <td align="center" nowrap><a href="https://stardreamfly.com/projects/starenvoy/">详情</a></td>
     </tr>
     <tr>
       <td nowrap><strong>星口</strong><br /><sub><a href="https://github.com/StarDreamTech/StarPort">StarPort</a></sub></td>
       <td>从本机 Clash 配置按节点分配独立 SOCKS 端口并页面化管理启停（Go · mihomo）</td>
-      <td align="center" nowrap><code>原型阶段</code></td>
+      <td align="center" nowrap><code>原型版</code></td>
       <td align="center" nowrap><a href="https://stardreamfly.com/projects/starport/">详情</a></td>
     </tr>
   </tbody>
