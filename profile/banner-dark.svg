@@ -58,11 +58,9 @@
     <rect width="1200" height="320" fill="url(#glow-cyan)"/>
     <rect width="1200" height="320" fill="url(#glow-rose)"/>
 
-    <!-- Subtle constellation arcs -->
     <path d="M -40 275 Q 340 165 720 215 T 1240 95" fill="none" stroke="url(#orbit)" stroke-width="1.2"/>
     <path d="M 140 330 Q 520 210 920 250 T 1240 165" fill="none" stroke="url(#orbit)" stroke-width="0.9" opacity="0.65"/>
 
-    <!-- Starfield -->
     <g fill="#ffffff">
       <circle cx="88" cy="64" r="1.4" opacity="0.85"/>
       <circle cx="164" cy="112" r="0.9" opacity="0.5"/>
@@ -83,7 +81,6 @@
       <circle cx="1146" cy="118" r="1.0" opacity="0.6"/>
     </g>
 
-    <!-- Decorative constellation on right -->
     <g opacity="0.75">
       <line x1="918" y1="66" x2="990" y2="130" stroke="#b9a6ff" stroke-opacity="0.28" stroke-width="1"/>
       <line x1="990" y1="130" x2="1062" y2="58" stroke="#7fd8ff" stroke-opacity="0.25" stroke-width="1"/>
@@ -95,33 +92,29 @@
       <circle cx="1120" cy="228" r="2.5" fill="#c9b6ff"/>
     </g>
 
-    <!-- Brand star emblem -->
-    <g transform="translate(88, 92) scale(2.05)" filter="url(#soft-glow)">
+    <g transform="translate(86, 92) scale(2.05)" filter="url(#soft-glow)">
       <path d="M32 4c2.2 14 6 17.8 20 20-14 2.2-17.8 6-20 20-2.2-14-6-17.8-20-20 14-2.2 17.8-6 20-20z" fill="url(#star-grad)"/>
       <circle cx="50" cy="48" r="3.2" fill="#c9b6ff"/>
       <circle cx="14" cy="50" r="2" fill="#7fd8ff"/>
     </g>
 
-    <!-- Eyebrow pill -->
-    <g transform="translate(262, 68)">
-      <rect x="0" y="0" width="332" height="28" rx="14" fill="#ffffff" fill-opacity="0.06" stroke="#ffffff" stroke-opacity="0.14"/>
-      <circle cx="18" cy="14" r="3.5" fill="#f3d38c"/>
-      <text x="32" y="18.5" fill="#d9ddff" fill-opacity="0.88" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="11.5" letter-spacing="2.2">OPEN SOURCE · LOCAL-FIRST · SINCE 2025</text>
+    <!-- Generous pill width so monospace text never clips -->
+    <g transform="translate(260, 62)">
+      <rect x="0" y="0" width="388" height="30" rx="15" fill="#ffffff" fill-opacity="0.06" stroke="#ffffff" stroke-opacity="0.16"/>
+      <circle cx="19" cy="15" r="3.5" fill="#f3d38c"/>
+      <text x="34" y="19.5" fill="#d9ddff" fill-opacity="0.9" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="11.5" letter-spacing="1.6">OPEN SOURCE · LOCAL-FIRST · SINCE 2025</text>
     </g>
 
-    <!-- Main Chinese + English Title -->
-    <text x="260" y="168" fill="url(#title-cn)" font-family="'Songti SC', 'Noto Serif CJK SC', 'PingFang SC', 'Microsoft YaHei', serif" font-size="64" font-weight="700" letter-spacing="8">星梦科技</text>
-    <text x="568" y="162" fill="url(#title-en)" font-family="'SF Pro Display', 'Inter', -apple-system, BlinkMacSystemFont, sans-serif" font-size="28" font-weight="500" letter-spacing="5">STARDREAMTECH</text>
+    <text x="260" y="168" fill="url(#title-cn)" font-family="'Songti SC', 'Noto Serif CJK SC', 'PingFang SC', 'Microsoft YaHei', serif" font-size="62" font-weight="700" letter-spacing="7">星梦科技</text>
+    <text x="556" y="162" fill="url(#title-en)" font-family="'SF Pro Display', 'Inter', -apple-system, BlinkMacSystemFont, sans-serif" font-size="27" font-weight="500" letter-spacing="4.5">STARDREAMTECH</text>
 
-    <!-- Tagline -->
-    <text x="262" y="218" fill="#eef0ff" fill-opacity="0.92" font-family="'Songti SC', 'PingFang SC', 'Microsoft YaHei', serif" font-size="20" letter-spacing="3.5">让梦想像星星一样闪亮 · 本地优先桌面工具 · AI 助手 · 开源基础设施</text>
+    <text x="262" y="218" fill="#eef0ff" fill-opacity="0.9" font-family="'Songti SC', 'PingFang SC', 'Microsoft YaHei', serif" font-size="19.5" letter-spacing="2.8">让梦想像星星一样闪亮 · 本地优先桌面工具 · AI 助手 · 开源基础设施</text>
 
-    <!-- Domain & Email footer strip -->
-    <text x="262" y="262" fill="#b9a6ff" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="14" letter-spacing="0.8">stardreamfly.com</text>
-    <text x="412" y="262" fill="#eef0ff" fill-opacity="0.35" font-family="sans-serif" font-size="14">·</text>
-    <text x="430" y="262" fill="#7fd8ff" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="14" letter-spacing="0.5">hi@stardreamfly.com</text>
+    <!-- Single flowing text with tspan so separator never collides -->
+    <text x="262" y="264" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="14" letter-spacing="0.4">
+      <tspan fill="#b9a6ff">stardreamfly.com</tspan><tspan fill="#eef0ff" fill-opacity="0.35" dx="14">·</tspan><tspan fill="#7fd8ff" dx="14">hi@stardreamfly.com</tspan>
+    </text>
   </g>
 
-  <!-- Crisp border -->
   <rect x="0.75" y="0.75" width="1198.5" height="318.5" rx="21.25" ry="21.25" fill="none" stroke="#ffffff" stroke-opacity="0.12" stroke-width="1.5"/>
 </svg>
