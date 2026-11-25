@@ -1,0 +1,127 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 320" width="1200" height="320" role="img" aria-label="星梦科技 StarDreamTech">
+  <defs>
+    <linearGradient id="bg-dark" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#05060f"/>
+      <stop offset="50%" stop-color="#0a0c1d"/>
+      <stop offset="100%" stop-color="#060713"/>
+    </linearGradient>
+    <radialGradient id="glow-violet" cx="82%" cy="15%" r="55%">
+      <stop offset="0%" stop-color="#6b56ff" stop-opacity="0.42"/>
+      <stop offset="55%" stop-color="#4e3bc4" stop-opacity="0.14"/>
+      <stop offset="100%" stop-color="#05060f" stop-opacity="0"/>
+    </radialGradient>
+    <radialGradient id="glow-cyan" cx="14%" cy="85%" r="50%">
+      <stop offset="0%" stop-color="#2cb8e6" stop-opacity="0.30"/>
+      <stop offset="60%" stop-color="#1e6ea0" stop-opacity="0.10"/>
+      <stop offset="100%" stop-color="#05060f" stop-opacity="0"/>
+    </radialGradient>
+    <radialGradient id="glow-rose" cx="54%" cy="105%" r="48%">
+      <stop offset="0%" stop-color="#df7ac8" stop-opacity="0.22"/>
+      <stop offset="100%" stop-color="#05060f" stop-opacity="0"/>
+    </radialGradient>
+    <linearGradient id="star-grad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#fff3d6"/>
+      <stop offset="50%" stop-color="#c9b6ff"/>
+      <stop offset="100%" stop-color="#7fd8ff"/>
+    </linearGradient>
+    <linearGradient id="title-cn" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#ffffff"/>
+      <stop offset="55%" stop-color="#ebe5ff"/>
+      <stop offset="100%" stop-color="#b4a0ff"/>
+    </linearGradient>
+    <linearGradient id="title-en" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#f3d38c"/>
+      <stop offset="45%" stop-color="#ffffff"/>
+      <stop offset="100%" stop-color="#7fd8ff"/>
+    </linearGradient>
+    <linearGradient id="orbit" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#7fd8ff" stop-opacity="0"/>
+      <stop offset="40%" stop-color="#b9a6ff" stop-opacity="0.45"/>
+      <stop offset="75%" stop-color="#f3d38c" stop-opacity="0.35"/>
+      <stop offset="100%" stop-color="#7fd8ff" stop-opacity="0"/>
+    </linearGradient>
+    <filter id="soft-glow" x="-30%" y="-30%" width="160%" height="160%">
+      <feGaussianBlur stdDeviation="8" result="blur"/>
+      <feMerge>
+        <feMergeNode in="blur"/>
+        <feMergeNode in="SourceGraphic"/>
+      </feMerge>
+    </filter>
+    <clipPath id="round-clip">
+      <rect x="0" y="0" width="1200" height="320" rx="22" ry="22"/>
+    </clipPath>
+  </defs>
+
+  <g clip-path="url(#round-clip)">
+    <rect width="1200" height="320" fill="url(#bg-dark)"/>
+    <rect width="1200" height="320" fill="url(#glow-violet)"/>
+    <rect width="1200" height="320" fill="url(#glow-cyan)"/>
+    <rect width="1200" height="320" fill="url(#glow-rose)"/>
+
+    <!-- Subtle constellation arcs -->
+    <path d="M -40 275 Q 340 165 720 215 T 1240 95" fill="none" stroke="url(#orbit)" stroke-width="1.2"/>
+    <path d="M 140 330 Q 520 210 920 250 T 1240 165" fill="none" stroke="url(#orbit)" stroke-width="0.9" opacity="0.65"/>
+
+    <!-- Starfield -->
+    <g fill="#ffffff">
+      <circle cx="88" cy="64" r="1.4" opacity="0.85"/>
+      <circle cx="164" cy="112" r="0.9" opacity="0.5"/>
+      <circle cx="242" cy="48" r="1.1" opacity="0.65"/>
+      <circle cx="318" cy="264" r="1.3" opacity="0.7" fill="#f3d38c"/>
+      <circle cx="426" cy="54" r="0.9" opacity="0.45"/>
+      <circle cx="520" cy="278" r="1.1" opacity="0.55" fill="#7fd8ff"/>
+      <circle cx="678" cy="42" r="1.5" opacity="0.8" fill="#d6ccff"/>
+      <circle cx="760" cy="88" r="1.0" opacity="0.55"/>
+      <circle cx="835" cy="268" r="1.2" opacity="0.65"/>
+      <circle cx="918" cy="66" r="1.6" opacity="0.9" fill="#fff3d6"/>
+      <circle cx="990" cy="130" r="1.1" opacity="0.6" fill="#7fd8ff"/>
+      <circle cx="1062" cy="58" r="1.3" opacity="0.75"/>
+      <circle cx="1120" cy="228" r="1.4" opacity="0.7" fill="#c9b6ff"/>
+      <circle cx="1044" cy="252" r="0.9" opacity="0.5"/>
+      <circle cx="122" cy="242" r="1.2" opacity="0.6" fill="#7fd8ff"/>
+      <circle cx="58" cy="176" r="0.9" opacity="0.45"/>
+      <circle cx="1146" cy="118" r="1.0" opacity="0.6"/>
+    </g>
+
+    <!-- Decorative constellation on right -->
+    <g opacity="0.75">
+      <line x1="918" y1="66" x2="990" y2="130" stroke="#b9a6ff" stroke-opacity="0.28" stroke-width="1"/>
+      <line x1="990" y1="130" x2="1062" y2="58" stroke="#7fd8ff" stroke-opacity="0.25" stroke-width="1"/>
+      <line x1="990" y1="130" x2="1120" y2="228" stroke="#b9a6ff" stroke-opacity="0.22" stroke-width="1"/>
+      <line x1="990" y1="130" x2="1044" y2="252" stroke="#f3d38c" stroke-opacity="0.2" stroke-width="1"/>
+      <circle cx="990" cy="130" r="3.2" fill="#7fd8ff"/>
+      <circle cx="918" cy="66" r="2.6" fill="#fff3d6"/>
+      <circle cx="1062" cy="58" r="2.2" fill="#c9b6ff"/>
+      <circle cx="1120" cy="228" r="2.5" fill="#c9b6ff"/>
+    </g>
+
+    <!-- Brand star emblem -->
+    <g transform="translate(88, 92) scale(2.05)" filter="url(#soft-glow)">
+      <path d="M32 4c2.2 14 6 17.8 20 20-14 2.2-17.8 6-20 20-2.2-14-6-17.8-20-20 14-2.2 17.8-6 20-20z" fill="url(#star-grad)"/>
+      <circle cx="50" cy="48" r="3.2" fill="#c9b6ff"/>
+      <circle cx="14" cy="50" r="2" fill="#7fd8ff"/>
+    </g>
+
+    <!-- Eyebrow pill -->
+    <g transform="translate(262, 68)">
+      <rect x="0" y="0" width="332" height="28" rx="14" fill="#ffffff" fill-opacity="0.06" stroke="#ffffff" stroke-opacity="0.14"/>
+      <circle cx="18" cy="14" r="3.5" fill="#f3d38c"/>
+      <text x="32" y="18.5" fill="#d9ddff" fill-opacity="0.88" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="11.5" letter-spacing="2.2">OPEN SOURCE · LOCAL-FIRST · SINCE 2025</text>
+    </g>
+
+    <!-- Main Chinese + English Title -->
+    <text x="260" y="168" fill="url(#title-cn)" font-family="'Songti SC', 'Noto Serif CJK SC', 'PingFang SC', 'Microsoft YaHei', serif" font-size="64" font-weight="700" letter-spacing="8">星梦科技</text>
+    <text x="568" y="162" fill="url(#title-en)" font-family="'SF Pro Display', 'Inter', -apple-system, BlinkMacSystemFont, sans-serif" font-size="28" font-weight="500" letter-spacing="5">STARDREAMTECH</text>
+
+    <!-- Tagline -->
+    <text x="262" y="218" fill="#eef0ff" fill-opacity="0.92" font-family="'Songti SC', 'PingFang SC', 'Microsoft YaHei', serif" font-size="20" letter-spacing="3.5">让梦想像星星一样闪亮 · 本地优先桌面工具 · AI 助手 · 开源基础设施</text>
+
+    <!-- Domain & Email footer strip -->
+    <text x="262" y="262" fill="#b9a6ff" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="14" letter-spacing="0.8">stardreamfly.com</text>
+    <text x="412" y="262" fill="#eef0ff" fill-opacity="0.35" font-family="sans-serif" font-size="14">·</text>
+    <text x="430" y="262" fill="#7fd8ff" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="14" letter-spacing="0.5">hi@stardreamfly.com</text>
+  </g>
+
+  <!-- Crisp border -->
+  <rect x="0.75" y="0.75" width="1198.5" height="318.5" rx="21.25" ry="21.25" fill="none" stroke="#ffffff" stroke-opacity="0.12" stroke-width="1.5"/>
+</svg>
