@@ -97,12 +97,6 @@ brew install stardreamtech/tap/starvault         # 星匣 · 仅 CLI / MCP
       <td align="center" nowrap><code>源码版</code></td>
       <td align="center" nowrap><a href="https://stardreamfly.com/projects/starenvoy/">详情</a></td>
     </tr>
-    <tr>
-      <td nowrap><strong>星口</strong><br /><sub><a href="https://github.com/StarDreamTech/StarPort">StarPort</a></sub></td>
-      <td>从本机 Clash 配置按节点分配独立 SOCKS 端口并页面化管理启停（Go · mihomo）</td>
-      <td align="center" nowrap><code>原型版</code></td>
-      <td align="center" nowrap><a href="https://stardreamfly.com/projects/starport/">详情</a></td>
-    </tr>
   </tbody>
 </table>
 
